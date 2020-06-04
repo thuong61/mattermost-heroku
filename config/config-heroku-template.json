@@ -228,7 +228,7 @@
         "EnableBanner": false,
         "BannerText": "",
         "BannerColor": "#f2a93b",
-        "BannerTextColor": "#333333",
+        "BannerTextColor": "#333334",
         "AllowBannerDismissal": true
     },
     "ThemeSettings": {
