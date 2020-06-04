@@ -146,7 +146,7 @@
         "EnableDiagnostics": true
     },
     "PasswordSettings": {
-        "MinimumLength": 5,
+        "MinimumLength": 10,
         "Lowercase": false,
         "Number": false,
         "Uppercase": false,
@@ -227,8 +227,8 @@
     "AnnouncementSettings": {
         "EnableBanner": false,
         "BannerText": "",
-        "BannerColor": "#f2a93b",
-        "BannerTextColor": "#333334",
+        "BannerColor": "#483D8B",
+        "BannerTextColor": "#333333",
         "AllowBannerDismissal": true
     },
     "ThemeSettings": {
