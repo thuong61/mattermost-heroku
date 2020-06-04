@@ -146,11 +146,11 @@
         "EnableDiagnostics": true
     },
     "PasswordSettings": {
-        "MinimumLength": 5,
+        "MinimumLength": 1,
         "Lowercase": false,
         "Number": false,
         "Uppercase": false,
-        "Symbol": false
+        "Symbol": true
     },
     "FileSettings": {
         "EnableFileAttachments": true,
