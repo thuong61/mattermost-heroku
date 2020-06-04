@@ -175,7 +175,7 @@
     "EmailSettings": {
         "EnableSignUpWithEmail": true,
         "EnableSignInWithEmail": true,
-        "EnableSignInWithUsername": false,
+        "EnableSignInWithUsername": true,
         "SendEmailNotifications": ${EMAIL_SETTINGS__SEND_EMAIL_NOTIFICATIONS},
         "UseChannelInEmailNotifications": false,
         "RequireEmailVerification": ${EMAIL_SETTINGS__REQUIRE_EMAIL_VERIFICATION},
