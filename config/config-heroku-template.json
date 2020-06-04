@@ -174,13 +174,13 @@
     },
     "EmailSettings": {
         "EnableSignUpWithEmail": true,
-        "EnableSignInWithEmail": false,
+        "EnableSignInWithEmail": true,
         "EnableSignInWithUsername": true,
         "SendEmailNotifications": ${EMAIL_SETTINGS__SEND_EMAIL_NOTIFICATIONS},
         "UseChannelInEmailNotifications": false,
         "RequireEmailVerification": ${EMAIL_SETTINGS__REQUIRE_EMAIL_VERIFICATION},
         "FeedbackName": "${EMAIL_SETTINGS__FEEDBACK_NAME}",
-        "FeedbackEmail": "${EMAIL_SETTINGS__FEEDBACK_EMAIL}",
+        "FeedbackEmail": "${EMAIL_SETTINGS__FEEDBACK_NAME}",//"${EMAIL_SETTINGS__FEEDBACK_EMAIL}",
         "ReplyToAddress": "${EMAIL_SETTINGS__FEEDBACK_EMAIL}",
         "FeedbackOrganization": "${EMAIL_SETTINGS__FEEDBACK_ORGANIZATION}",
         "EnableSMTPAuth": ${EMAIL_SETTINGS__SMTP_AUTH_ENABLED},
@@ -201,7 +201,7 @@
         "EmailNotificationContentsType": "full",
         "LoginButtonColor": "#0000",
         "LoginButtonBorderColor": "#2389D7",
-        "LoginButtonTextColor": "#2389D7"
+        "LoginButtonTextColor": "red"//"#2389D7"
     },
     "RateLimitSettings": {
         "Enable": false,
