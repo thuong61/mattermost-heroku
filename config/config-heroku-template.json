@@ -146,7 +146,7 @@
         "EnableDiagnostics": true
     },
     "PasswordSettings": {
-        "MinimumLength": 5,
+        "MinimumLength": 1,
         "Lowercase": false,
         "Number": false,
         "Uppercase": false,
