@@ -150,7 +150,7 @@
         "Lowercase": false,
         "Number": false,
         "Uppercase": false,
-        "Symbol": true
+        "Symbol": false
     },
     "FileSettings": {
         "EnableFileAttachments": true,
