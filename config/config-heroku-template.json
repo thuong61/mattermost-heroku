@@ -415,7 +415,7 @@
         "PluginStates": {}
     },
     "ImageProxySettings": {
-        "Enable": false,
+        "Enable": true,
         "ImageProxyType": "local",
         "RemoteImageProxyURL": "",
         "RemoteImageProxyOptions": ""
